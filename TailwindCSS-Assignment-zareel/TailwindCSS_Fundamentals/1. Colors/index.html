@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Colors</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    1. Colors With Different Shades
+    <!-- https://tailwindcss.com/docs/customizing-colors  -->
+     <div class="bg-black text-2xl">
+      <h1  class="font-bold text-emerald-100">Hello</h1> 
+      <h1  class="font-bold text-emerald-200">Hello</h1> 
+      <h1  class="font-bold text-emerald-300">Hello</h1>      
+      <h1  class="font-bold text-emerald-400">Hello</h1>      
+     </div>
+
+    2. Background Colors
+    <!-- https://tailwindcss.com/docs/background-color -->
+     <div class="text-xl">
+      <div class="bg-fuchsia-500">1</div>      
+      <div class="bg-fuchsia-600">1</div>      
+      <div class="bg-fuchsia-700">1</div>      
+
+     </div>
+
+    Text Underline
+    <!-- https://tailwindcss.com/docs/accent-color -->
+     <div class="text-2xl font-semibold">
+      <h1 class="underline">Offset-1</h1>
+      <p class="underline underline-offset-4">Offset-4</p>
+      <p class="underline underline-offset-8">Offset-8</p>
+     </div> <br>
+
+    Accent color
+    <!-- https://tailwindcss.com/docs/accent-color -->
+     <div class="">
+      <form class="text-2xl bg-cyan-100" action="">
+        <label form="">Fav Colors:<br>
+        <input type="checkbox" class="accent-amber-500" checked> Amber <br>
+        <input type="checkbox" class="accent-orange-500" checked> Orange<br>
+        <input type="checkbox" class="accent-stone-500" checked> Stone <br>
+        <input type="checkbox" class="accent-teal-500" checked> Teal <br>
+        <input type="checkbox" class="accent-pink-500" checked> Pink <br>
+        <input type="checkbox" class="accent-red-500" checked> Red <br>
+      </label>
+      </form>
+     </div>
+
+    Arbitrary colors: <br> <br>
+    <!-- https://tailwindcss.com/docs/customizing-colors#arbitrary-values -->
+      <label class="text-xl font-semibold" for="">Famous Color Codes:
+      <button class="bg-[#e4e932] px-2 py-1 rounded-md"> #e4e932</button>
+      <button class="bg-[#a83ae4] px-2 py-1 rounded-md">#a83ae4</button>
+      <button class="bg-[#3a5ce4] px-2 py-1 rounded-md">#3a5ce4</button>
+      <button class="bg-[#e43a8c] px-2 py-1 rounded-md">#e43a8c</button>
+      <button class="bg-[#e43a6d] px-2 py-1 rounded-md">#e43a6d</button>
+    </label>
+     </div>
+  </body>
+</html>
