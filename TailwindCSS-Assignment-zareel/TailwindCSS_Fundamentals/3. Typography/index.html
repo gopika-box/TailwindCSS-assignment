@@ -7,30 +7,89 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Typography</title>
   </head>
-  <body class="p-20">
-    <!-- Font Size -->
+  <body class="p-20 text-xl">
+    Font Size:
     <!-- https://tailwindcss.com/docs/font-size -->
+   <div class="bg-green-100">
+    <p class="text-xs">Hello</p>
+    <p class="text-sm">Hello</p>
+    <p class="text-base">Hello</p>
+    <p class="text-lg">Hello</p>
+    <p class="text-xl">Hello</p>
+    <p class="text-2xl">Hello</p>
+    <p class="text-4xl">Hello</p>
+    <p class="text-6xl">Hello</p>
+    <p class="text-9xl">Hello</p>
+   </div> <br>
 
-    <!-- Font Family -->
+    Font Family :
     <!-- https://tailwindcss.com/docs/font-family -->
-
-    <!-- Font Weight -->
+     <div class="bg-sky-100">
+      <p class="font-sans text-xl">Sans : The quick brown fox jumps over the lazy dog</p>
+      <p class="font-serif text-xl">Serif : The quick brown fox jumps over the lazy dog</p>
+      <p class="font-mono text-xl">Mono : The quick brown fox jumps over the lazy dog</p>
+     </div> <br>
+    Font Weight :
     <!-- https://tailwindcss.com/docs/font-weight -->
-
-    <!-- Letter Spacing -->
+     <div class="bg-pink-100 text-xl">
+      <p class="font-light">This is light font weight</p>
+     <p class="font-normal">This is normal font weight</p>
+     <p class="font-medium">This is medium font weight</p>
+     <p class="font-semibold">This is semibold font weight</p>
+     <p class="font-bold">This is bold font weight</p>
+     </div><br>
+     
+    Letter Spacing
     <!-- https://tailwindcss.com/docs/letter-spacing -->
+     <div>
+      <p class="tracking-tighter">This is Tighter Letter Spacing</p>
+      <p class="tracking-normal">This is Normal Letter Spacing</p>
+      <p class="tracking-wide">This is Wide Letter Spacing</p>
+      <p class="tracking-widest">This is Widest Letter Spacing</p>
+      <p class="underline hover:tracking-widest">Hover Here Please</p>
+     </div> <br>
 
-    <!-- Text Alignment -->
+    Text Alignment
     <!-- https://tailwindcss.com/docs/text-align -->
+     <div class="bg-orange-50 font-medium">
+      <p class="text-center">Center:Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsum autem rerum reiciendis, quaerat deserunt odio ut quam dolorem at enim suscipit delectus rem laborum, praesentium nesciunt. Nulla, quod? Magnam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ratione vitae! Hic dignissimos, at tempora temporibus id voluptatem ut aut.</p><br> <hr class="bg-black"> <br>
+      <p class="text-left">Left: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsum autem rerum reiciendis, quaerat deserunt odio ut quam dolorem at enim suscipit delectus rem laborum, praesentium nesciunt. Nulla, quod? Magnam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ratione vitae! Hic dignissimos, at tempora temporibus id voluptatem ut aut.</p> <br><hr class="bg-black"> <br>
+      <p class="text-right">Right: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsum autem rerum reiciendis, quaerat deserunt odio ut quam dolorem at enim suscipit delectus rem laborum, praesentium nesciunt. Nulla, quod? Magnam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ratione vitae! Hic dignissimos, at tempora temporibus id voluptatem ut aut.</p><br> <hr class="bg-black"><br>
+      <p class="text-start">Start: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsum autem rerum reiciendis, quaerat deserunt odio ut quam dolorem at enim suscipit delectus rem laborum, praesentium nesciunt. Nulla, quod? Magnam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ratione vitae! Hic dignissimos, at tempora temporibus id voluptatem ut aut.</p><br> <hr class="bg-black"><br>
+      <p class="text-end">End: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsum autem rerum reiciendis, quaerat deserunt odio ut quam dolorem at enim suscipit delectus rem laborum, praesentium nesciunt. Nulla, quod? Magnam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ratione vitae! Hic dignissimos, at tempora temporibus id voluptatem ut aut.</p><br> <hr class="bg-black"><br>
+      <p class="text-justify">Justify: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsum autem rerum reiciendis, quaerat deserunt odio ut quam dolorem at enim suscipit delectus rem laborum, praesentium nesciunt. Nulla, quod? Magnam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ratione vitae! Hic dignissimos, at tempora temporibus id voluptatem ut aut.</p><br> <hr class="bg-black"><br>
 
-    <!-- Text Decoration -->
+     </div>
+
+    Text Decoration:
     <!-- https://tailwindcss.com/docs/text-decoration-thickness -->
+     <div class="bg-fuchsia-100">
+      <p class="underline decoration-1">Decoration Value is 1</p>
+      <p class="underline decoration-4"> The quick brown fox jumps over the lazy dog</p> <br>
+      <p class="text-center underline hover:decoration-4">Hover Here</p>
 
-    <!-- Decoration Style -->
+     </div> <br>
+
+    Decoration Style:
+    <div class="bg-fuchsia-100">
+      <p class="underline decoration-double">Double Decoration</p>
+      <p class="underline decoration-dotted">Dotted Decoration</p>
+      <p class="underline decoration-dashed">Dashed Decoration</p>
+      <p class="underline decoration-wavy">Wavy Decoration</p> <br>
+
+      <p class="text-center underline decoration-dotted hover:decoration-wavy">HOVER to make me Wavy</p>      
+
+    </div> <br> <hr>
 
     <!-- Decoration Offset -->
 
-    <!-- Text Transform -->
+    Text Transform :
     <!-- https://tailwindcss.com/docs/text-transform -->
+     <div class=" flex flex-col gap-3 bg-slate-100">Hover to see the following texts transform :
+      
+      <p class="hover:uppercase bg-cyan-100"> 1. uppercase: make uppercase all the letters.</p>
+      <p class="hover:lowercase bg-fuchsia-100">2. lowercase: MAKE ALL LETTERS LOWERCASE.</p>
+      <p class="hover:capitalize"> 3. capitalize: makes the first letter of each word capital.</p>
+     </div>
   </body>
 </html>
