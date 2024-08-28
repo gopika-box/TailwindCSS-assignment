@@ -5,10 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>TailwindCSS</title>
   </head>
-  <body class="p-20">
+  <body class="p-20 text-2xl">
+    <div class=" container bg-blue-800 p-12">
+      <h3 class="p-2 mb-2 font-semibold text-white">Static parent</h3>
+      <span class="font-semibold static container m-3 p-2 bg-white text-blue-600 rounded-lg">Static child</span>      
+      <span class="font-semibold absolute right-16 top-16 m-3 p-2 bg-white text-blue-600 rounded-lg border border-blue-800">Absolute child</span>      
+      <span class="font-semibold fixed right-20 top-40 m-3 p-2 bg-white text-blue-600 rounded-lg border border-blue-800">Fixed child</span>           
+      
+    </div>
+    <div class="bg-green-200 text-3xl"> <h1 class="sticky top-0 text-2xl text-white bg-yellow-500 p-3">Sticky heading</h1>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia voluptas voluptates natus officia. Blanditiis est deleniti recusandae aut quod libero consequatur expedita, commodi perspiciatis placeat facilis modi. Earum, dolorum ea Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, tempore officiis? Aspernatur vitae eos eum assumenda magnam sapiente sint consequuntur veniam nihil hic! Numquam, vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi molestias ipsam pariatur, iusto porro, minima omnis molestiae asperiores harum in quo rem distinctio animi aut nobis sed accusamus? Omnis numquam veniam animi optio, libero recusandae aut autem, eveniet ea, aperiam dolore exercitationem debitis? Repellendus labore consectetur quod temporibus voluptate quaerat incidunt eligendi hic id culpa reiciendis maiores ipsum, earum laudantium repudiandae nisi fugit cum laboriosam porro quae cupiditate vitae! Vel nulla architecto quidem adipisci laudantium dolor molestias omnis dolorem magni facere natus necessitatibus, nam aspernatur eum qui tempore expedita aliquam tenetur magnam non doloribus! Explicabo ut cumque reprehenderit tempora expedita recusandae iusto corporis natus ad minus asperiores adipisci cupiditate repellat atque magnam eveniet nihil, magni delectus at, deleniti quo! Commodi quae doloremque obcaecati labore nostrum natus voluptas quis illo voluptate voluptatibus, tenetur provident ex eligendi ipsam voluptatum earum mollitia consequatur incidunt vitae eos excepturi unde tempore sapiente! Repudiandae rem illo, voluptate cumque delectus maxime voluptas quis eum corrupti saepe soluta. Aliquam labore voluptate hic quisquam tenetur laudantium. Debitis, mollitia. Qui accusantium nam perferendis, hic veritatis repellat possimus quia nobis, at, error temporibus quam laudantium? Eveniet, minima facere accusantium dolorum, iure assumenda voluptatum enim vel, deleniti nihil aliquid cupiditate magni esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit eligendi perferendis nulla ut temporibus accusamus, nobis minus quidem in saepe alias veritatis, illum veniam quasi iusto fuga, dolorem asperiores consectetur nostrum expedita! Ipsa fugit nobis enim cumque totam assumenda itaque expedita distinctio sequi delectus recusandae, quidem earum veniam? Eligendi, at. Eaque est id totam. Maxime, sapiente! Tempora, iste. Reprehenderit sequi molestiae illum optio. Quas ducimus ex laudantium illo? Magni officiis eaque quia ad dicta fuga sit consectetur minus, dolore quidem, nostrum odio quisquam ex qui error distinctio dignissimos corrupti. In libero unde rem quidem dolor ullam accusantium impedit atque debitis repellendus? Fugit perspiciatis, unde odio sequi voluptates nesciunt praesentium a debitis voluptatibus modi quia, quos nobis eligendi magnam animi eveniet nisi eum dicta culpa sapiente enim eius. Porro, voluptates! Iure illum molestiae, minima vel quis aut recusandae esse dolores quo ullam vero ipsam quae, quos sequi! Tempore quas dolor omnis, maiores enim non quis molestiae accusamus delectus excepturi. Dolore temporibus reiciendis quos? Debitis accusantium repudiandae, modi est omnis suscipit et excepturi a possimus quisquam sit adipisci nam tenetur provident tempora odio vel aspernatur asperiores nemo commodi veritatis quae. Eos deserunt, atque doloremque, reiciendis dolorum magnam consequatur, rem facilis commodi voluptatum cum consequuntur id eaque ipsa incidunt assumenda. Nobis sit fugiat aspernatur fuga animi officiis non ea dolorem laboriosam hic sed quod eos natus delectus aliquid recusandae numquam ipsam ratione voluptas autem, laudantium repellat distinctio rem! Deleniti, voluptates. Ipsam deleniti placeat officia doloremque voluptate dolor expedita ab quasi! Facere, porro neque, deleniti distinctio quis laborum dicta tempora perspiciatis maxime itaque officiis quos ipsam dignissimos laudantium qui possimus aut ut? Expedita, inventore. Quo molestiae obcaecati temporibus eius quaerat voluptas in soluta inventore blanditiis, voluptatibus eveniet recusandae. Nisi, ex earum ab assumenda quo vitae corporis officiis, magni eius voluptas nam quibusdam unde pariatur?</div> <br>
     <!-- https://tailwindcss.com/docs/position -->
     <!-- https://tailwindcss.com/docs/display -->
+    
+     <div class="container text-3xl bg-pink-500 p-8">
+      Let's learn about different <b>DISPLAY</b> properties <br>
+      1. <span class="inline bg-gray-100 w-2">inline</span> : the default property. similar to span. height and width can't be applied <br>
+      2. <span class="block bg-gray-300">Block:</span> starts in a new line, similar to p tag. <br>
+      3. <span class="inline-block bg-gray-100 w-60">Inline-Block:</span>  will wrap the element to prevent the text inside from extending beyond its parent. Height and width can be applied.
+      <div class="bg-blue-500 p-2">
+         <b>Flex</b> utility to create a block-level flex container for icon and the text
+       <div class="flex items-center gap-3 p-2 bg-blue-200">
+        <i class="fa-solid fa-user"></i>
+        <p>Username</p>
+       </div> 
+      </div><br>
+
+      <div>
+        <b>GRID</b>
+        <div class="grid gap-2 grid-cols-2 items-center bg-cyan-700 p-4">
+          <div class="bg-cyan-300">1</div>
+          <div class="bg-cyan-300">2</div>
+          <div class="bg-cyan-300">3</div>
+          <div class="bg-cyan-300">4</div>
+        </div>
+        GRID Inline <br> <br>
+        <span class="grid-inline  bg-cyan-700 p-4">
+          <span class="bg-cyan-300 py-2 px-3">1</span>
+          <span class="bg-cyan-300 p-2 px-3">2</span>
+          <span class="bg-cyan-300 p-2 px-3">3</span>
+          <span class="bg-cyan-300 p-2 px-3">4</span>
+        </span>
+       
+      </div> <br> <br>
+      <div>
+        <B>CONTENTS</B> creates a “phantom” container whose children act like direct children of the parent.
+
+        
+        </div>
+      </div>
+
+      <div class="flex justify-around bg-pink-500 container border-t-2">
+        <p>without the use to contents</p>
+        <p>without the use to contents</p>
+      </div>
+      <div class="flex justify-around items-center container bg-pink-500 text-3xl border-b-1">
+        
+        <div class="flex bg-pink-200 ">
+          
+          <div class="flex">1</div>
+          <div class="">
+            <div>2</div>
+            <div>3</div>
+          </div> 
+        </div>
+          <div class="flex bg-pink-200">
+            <!-- with flex -->
+            <div>1</div>
+            <div class="contents">
+              <div>2</div>
+              <div>3</div>
+            </div>
+      </div> 
+      </div> 
   </body>
 </html>
