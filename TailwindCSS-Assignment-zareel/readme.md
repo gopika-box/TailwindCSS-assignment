@@ -5,3 +5,9 @@
 
 ### 3. Typography
 ![ss3](./TailwindCSS_Fundamentals/3.%20Typography/typo.jpeg)
+
+### 4. Sizing
+![ss4](./TailwindCSS_Fundamentals/4.%20Sizing/sizing.jpeg)
+
+### 7. Border
+![ss5](./TailwindCSS_Fundamentals/7.%20Borders/border.png)
