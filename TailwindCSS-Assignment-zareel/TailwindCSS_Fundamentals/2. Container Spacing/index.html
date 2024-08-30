@@ -12,7 +12,7 @@
       }
     </style>
   </head>
-  <body>
+  <body class="text-2xl font-semibold">
     Margin
     <!-- https://tailwindcss.com/docs/margin -->
      <div class="bg-cyan-100 font-semibold p-6 border text-xl">
@@ -29,12 +29,37 @@
 
     Arbitrary Spacing
      <!-- https://tailwindcss.com/docs/border-spacing#arbitrary-values -->
+      <div class="bg-gray-200">
+        <h1 class="border-[24px]">Hey-24px</h1>
+      </div>
 
-    <!-- Padding -->
+    Padding
     <!-- https://tailwindcss.com/docs/padding -->
+     <div class="bg-cyan-300">
+      <h2 class="px-2">HELLO</h2>
+      <h2 class="px-3">HELLO</h2>
+      <h2 class="px-6">HELLO</h2>
+      <h2 class="px-12">HELLO</h2>
+      <h2 class="py-12">HELLO</h2>
+      <h2 class="py-4 px-36">HELLO</h2>
+     </div>
 
     <!-- https://tailwindcss.com/docs/space -->
-    <!-- Space Between X -->
-    <!-- Space Between Y -->
+    Space Between X
+    <div class="bg-green-200 flex space-x-10">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+    Space Between Y
+    <div class="bg-green-200 space-y-10">
+      <div>1</div>
+      <div class="flex space-x-10">
+        <div>2</div>
+        <div> space = 10</div>
+      </div>
+      
+      <div>3</div>
+    </div>
   </body>
 </html>
