@@ -20,3 +20,6 @@
 
 ### 7. Border
 ![ss5](./TailwindCSS_Fundamentals/7.%20Borders/border.png)
+
+### 8. Filter
+![ss9](./TailwindCSS_Fundamentals/8.%20Filters/Filters.png)
