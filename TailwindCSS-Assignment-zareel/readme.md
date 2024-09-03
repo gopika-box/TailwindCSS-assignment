@@ -23,3 +23,9 @@
 
 ### 8. Filter
 ![ss9](./TailwindCSS_Fundamentals/8.%20Filters/Filters.png)
+
+### 9. Breakpoints
+![ss10](./TailwindCSS_Fundamentals/9.%20Breakpoints/Breakpoints.png)
+
+![ss11](./TailwindCSS_Fundamentals/9.%20Breakpoints/Breakpoints(1).png)
+
