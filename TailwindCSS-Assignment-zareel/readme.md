@@ -15,5 +15,8 @@
 ### 5. Layout Position
 ![ss6](./TailwindCSS_Fundamentals/5.%20Layout%20Position/layout.png)
 
+### 6. Background Shadows
+![ss8](./TailwindCSS_Fundamentals/6.%20Backgrounds%20Shadows/Backgrounds-Shadows.png)
+
 ### 7. Border
 ![ss5](./TailwindCSS_Fundamentals/7.%20Borders/border.png)
