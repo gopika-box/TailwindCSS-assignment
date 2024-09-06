@@ -30,7 +30,7 @@
 ![ss11](./TailwindCSS_Fundamentals/9.%20Breakpoints/Breakpoints(1).png)
 
 ### 10. Flexbox
-![ss13]()
+![ss13](./TailwindCSS_Fundamentals/10.%20Flexbox/Flex.png)
 
 ### 11. Grid
 ![ss12](./TailwindCSS_Fundamentals/11.%20Grid/Grid.png)

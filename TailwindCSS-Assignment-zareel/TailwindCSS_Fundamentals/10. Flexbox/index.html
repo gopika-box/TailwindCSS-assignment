@@ -7,32 +7,77 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Flex</title>
   </head>
-  <body class="p-16 text-white font-semibold text-3xl">
-    <div class="flex gap-3 items-center">
-      <div class="h-20 flex w-20 bg-blue-700">1</div>
-      <div class="h-20 flex w-20 bg-blue-700">2</div>
-      <div class="h-20 flex w-20 bg-blue-700">3</div>
+  <body class="p-16  font-semibold text-3xl">
+    FLEX
+    <div class="flex gap-3 text-white">
+      <div class="h-20 flex  items-center justify-center w-20 bg-blue-700">1</div>
+      <div class="h-20 flex items-center justify-center w-20 bg-blue-700">2</div>
+      <div class="h-20 flex items-center justify-center w-20 bg-blue-700">3</div>
     </div>
     <!-- https://tailwindcss.com/docs/flex -->
      Flex Direction
-     <div class="flex flex-col gap-3">
-      <div class="h-20 bg-violet-700">flex-col</div>
-      <div class="h-20 bg-blue-700">to position</div>
-      <div class="h-20 bg-blue-700">flex items</div>
-      <div class="h-20 bg-blue-700">vertically</div>
+     <div class="flex flex-col gap-3 text-white">
+      <div class="flex items-center justify-center h-20 bg-violet-700">flex-col</div>
+      <div class="flex items-center justify-center h-20 bg-blue-700">to position</div>
+      <div class="flex items-center justify-center h-20 bg-blue-700">flex items</div>
+      <div class="flex items-center justify-center h-20 bg-blue-700">vertically</div>
      </div>
 
+     <div class="flex flex-row mt-3 gap-3 text-white">
+      <div class="flex items-center justify-center h-20 bg-violet-700 p-2">flex-row</div>
+      <div class="flex items-center justify-center h-20 bg-blue-700 p-2">to position</div>
+      <div class="flex items-center justify-center h-20 bg-blue-700 p-2">flex items</div>
+      <div class="flex items-center justify-center h-20 bg-blue-700 p-2">horizontally</div>
+     </div>
 
     <!-- https://tailwindcss.com/docs/flex-direction#column -->
 
     <!-- https://tailwindcss.com/docs/justify-items -->
-     <div>
-      
-     </div>
+     JUSTIFY ITEMS
+     <div class="grid gap-2 justify-items-start bg-blue-600 px-2 py-1">
+      <div class="bg-purple-400 text-2xl px-4 py-5">01</div>
+      <div class="bg-purple-400 text-2xl px-4 py-5">02</div>
+      <div class="bg-purple-400 text-2xl px-4 py-5">03</div>
+    </div> <br>
+
+    <div class="grid gap-2 justify-items-end bg-blue-600 px-2 py-1">
+      <div class="bg-pink-400 text-2xl px-4 py-5">01</div>
+      <div class="bg-pink-400 text-2xl px-4 py-5">02</div>
+      <div class="bg-pink-400 text-2xl px-4 py-5">03</div>
+    </div> <br>
+
+    <div class="grid gap-2 justify-items-center bg-blue-600 px-2 py-1">
+      <div class="bg-lime-400 text-2xl px-4 py-5">01</div>
+      <div class="bg-lime-400 text-2xl px-4 py-5">02</div>
+      <div class="bg-lime-400 text-2xl px-4 py-5">03</div>
+    </div> <br>
+     
+    <div class="grid gap-2 justify-items-stretch bg-blue-800 px-2 py-4">
+      <div class="bg-violet-600 text-2xl px-4 py-5">01</div>
+      <div class="bg-violet-600 text-2xl px-4 py-5">02</div>
+      <div class="bg-violet-600 text-2xl px-4 py-5">03</div>
+    </div> <br>
 
     <!-- https://tailwindcss.com/docs/order -->
+     ORDER
+     <div class="flex justify-bteween mt-8 gap-4 text-white">
+      <div class="flex items-center justify-center h-20 w-24 bg-blue-700">1</div>
+      <div class="flex items-center justify-center h-20 w-24 bg-blue-700">2</div>
+      <div class="flex items-center justify-center h-20 w-24 bg-blue-700">3</div>
+     </div>
 
-    <!-- Grow and shrink -->
+    Grow and shrink
     <!-- https://tailwindcss.com/docs/flex-shrink -->
+     
+    <div class="flex flex-col px-3 py-2 text-white flex ">
+      <div class="flex-none w-24  h-14 bg-blue-700 ml-2 px-2 text-3xl">
+        01
+      </div>
+      <div class="shrink w-1/2 h-14 bg-sky-500 ml-2 px-2 text-3xl">
+        02
+      </div>
+      <div class="flex-1 w-1/3 h-14 bg-blue-700 ml-2 px-2 text-3xl">
+        03
+      </div>
   </body>
 </html>
