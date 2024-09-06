@@ -7,7 +7,47 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Grid</title>
   </head>
-  <body class="p-10">
+  <body class="p-10 px-20 bg-black text-white font-bold text-3xl items-center">
+    GRID
+    <div class="grid grid-flow-col gap-5 bg-gray-700 p-6 items-center justify-items">
+      <div class="h-20 flex bg-pink-600 rounded items-center items-center justify-center">1</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">2</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">3</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">4</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">5</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">6</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">7</div>
+      <div class="h-20  flex items-center justify-center bg-pink-600 rounded">8</div>
+      <div class="h-20  flex items-center justify-center bg-pink-500 rounded">9</div>
+    </div>
     <!-- https://tailwindcss.com/docs/grid-template-rows -->
+
+    <div class="grid mt-8 grid-rows-3 grid-flow-col gap-5 bg-gray-700 p-6 items-center justify-items">
+      <div class="h-20 flex bg-pink-600 rounded items-center items-center justify-center">1</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">2</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">3</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">4</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">5</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">6</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">7</div>
+      <div class="h-20  flex items-center justify-center bg-pink-600 rounded">8</div>
+      <div class="h-20  flex items-center justify-center bg-pink-500 rounded">9</div>
+    </div> <br> <br>
+ GRID SUB-GRID
+    <div class="grid mt-8 grid-rows-4 grid-flow-col gap-5 bg-gray-700 p-6 items-center justify-items">
+      <div class="h-20 flex bg-pink-600 rounded items-center items-center justify-center">1</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">2</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">3</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">4</div>
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">5</div>
+      <div class="grid grid-rows-subgrid gap-4 row-span-2">
+        <div class="h-20 flex items-center justify-center bg-pink-400 rounded row-start-2">6</div>
+      
+      </div>
+      
+      <div class="h-20 flex items-center justify-center bg-pink-600 rounded">7</div>
+      <div class="h-20  flex items-center justify-center bg-pink-600 rounded">8</div>
+      <div class="h-20  flex items-center justify-center bg-pink-500 rounded">9</div>
+    </div>
   </body>
 </html>

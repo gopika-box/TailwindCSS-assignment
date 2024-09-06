@@ -29,3 +29,12 @@
 
 ![ss11](./TailwindCSS_Fundamentals/9.%20Breakpoints/Breakpoints(1).png)
 
+### 10. Flexbox
+![ss13]()
+
+### 11. Grid
+![ss12](./TailwindCSS_Fundamentals/11.%20Grid/Grid.png)
+
+### 12. Transform Transition & Animation
+![ss14]()
+
