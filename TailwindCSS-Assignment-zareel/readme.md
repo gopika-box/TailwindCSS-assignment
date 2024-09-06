@@ -36,5 +36,5 @@
 ![ss12](./TailwindCSS_Fundamentals/11.%20Grid/Grid.png)
 
 ### 12. Transform Transition & Animation
-![ss14]()
+![ss14](./TailwindCSS_Fundamentals/12.%20Transition%20transform/Transform-Transition.png)
 
